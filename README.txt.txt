@@ -1,0 +1,4 @@
+- ERC20 \ 223 \ 721 contracts created.
+-successfluy deployed to Ganache.
+-marketplace for erc721 using erc20 implemented.
+- Questions 8 and 10 unfortunately remain undone.

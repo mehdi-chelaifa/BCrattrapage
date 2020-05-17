@@ -1,0 +1,194 @@
+{
+  "contractName": "UnsafeContract",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.4.24+commit.e67f0147\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/Mehdi/BC/contracts/UnsafeContract.sol\":\"UnsafeContract\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/Mehdi/BC/contracts/UnsafeContract.sol\":{\"keccak256\":\"0x8e244bf5a4422e4c3bdd0afbe440ac29d855e29ec1091a96f2aeb218124f1e71\",\"urls\":[\"bzzr://be47abf85c07c972ae347eb035a218be65299375bf3bf96dbdc06a3433b17ca6\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a723058204b94ca85d8a8c255785436d7b551015a578c00e34ff355dd031607fe11cafa070029",
+  "deployedBytecode": "0x6080604052600080fd00a165627a7a723058204b94ca85d8a8c255785436d7b551015a578c00e34ff355dd031607fe11cafa070029",
+  "sourceMap": "36:64:7:-;;;67:30;8:9:-1;5:2;;;30:1;27;20:12;5:2;67:30:7;36:64;;;;;;",
+  "deployedSourceMap": "36:64:7:-;;;;;",
+  "source": "pragma solidity >=0.4.24 <0.7.0;\r\n\r\ncontract UnsafeContract {\r\n    constructor () public {\r\n    }\r\n}",
+  "sourcePath": "C:\\Users\\Mehdi\\BC\\contracts\\UnsafeContract.sol",
+  "ast": {
+    "absolutePath": "/C/Users/Mehdi/BC/contracts/UnsafeContract.sol",
+    "exportedSymbols": {
+      "UnsafeContract": [
+        608
+      ]
+    },
+    "id": 609,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 603,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".24",
+          "<",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:7"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 608,
+        "linearizedBaseContracts": [
+          608
+        ],
+        "name": "UnsafeContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 606,
+              "nodeType": "Block",
+              "src": "89:8:7",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 607,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 604,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "79:2:7"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 605,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "89:0:7"
+            },
+            "scope": 608,
+            "src": "67:30:7",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 609,
+        "src": "36:64:7"
+      }
+    ],
+    "src": "0:100:7"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/Mehdi/BC/contracts/UnsafeContract.sol",
+    "exportedSymbols": {
+      "UnsafeContract": [
+        608
+      ]
+    },
+    "id": 609,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 603,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".24",
+          "<",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:7"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 608,
+        "linearizedBaseContracts": [
+          608
+        ],
+        "name": "UnsafeContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 606,
+              "nodeType": "Block",
+              "src": "89:8:7",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 607,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 604,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "79:2:7"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 605,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "89:0:7"
+            },
+            "scope": 608,
+            "src": "67:30:7",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 609,
+        "src": "36:64:7"
+      }
+    ],
+    "src": "0:100:7"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x79AC51e4a5a397a3dBfA3aDE76285aEdbf90C2c3",
+      "transactionHash": "0x344794d269c6f6aeada4d7d0e29d5e065624d83479b100b0161d35d2578dd1e7"
+    }
+  },
+  "schemaVersion": "3.1.0",
+  "updatedAt": "2020-05-17T15:02:06.458Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
